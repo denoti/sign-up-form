@@ -74,20 +74,20 @@ a:visited {
 }
 
 label {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 input {
   width: 110%;
   padding: 5px;
   border-radius: 5px;
-  border-color: #E5E7EB;
+  border-color: #e5e7eb;
   outline: none;
 }
 
 input:focus {
-    border-color: blue;
-    box-shadow: 0 0 2px;
+  border-color: blue;
+  box-shadow: 0 0 2px;
 }
 
 .common {
@@ -102,8 +102,8 @@ input:focus {
 }
 
 input.error {
-    border-color: red;
-    outline: none;
+  border-color: red;
+  outline: none;
 }
 
 .part3 {
@@ -154,5 +154,9 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+
+  input {
+    width: 80%;
   }
 }
